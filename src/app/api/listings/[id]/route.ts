@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
 import { listings, creators, teamBlueprints } from "@/db/schema";
-import { eq, and, sql } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 import { getSession } from "@/lib/api-auth";
 
 // GET /api/listings/:slug - Listing detail

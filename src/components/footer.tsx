@@ -2,26 +2,21 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="border-t border-gray-200 bg-white">
-      <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
-          <p className="text-sm text-gray-500">
-            ClipMart &mdash; The marketplace for Paperclip team blueprints
-          </p>
-          <div className="flex gap-6">
-            <Link
-              href="/about"
-              className="text-sm text-gray-500 hover:text-gray-700"
-            >
-              About
-            </Link>
-            <Link
-              href="/pricing"
-              className="text-sm text-gray-500 hover:text-gray-700"
-            >
-              Pricing
-            </Link>
-          </div>
+    <footer className="mt-16 border-t border-stone-300 bg-stone-50/70">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-4 py-8 sm:flex-row sm:px-6 lg:px-8">
+        <p className="text-sm text-stone-600">
+          ClipMart, the marketplace for Paperclip team blueprints
+        </p>
+        <div className="flex gap-6">
+          <Link href="/about" className="text-sm text-stone-600 transition hover:text-stone-900">
+            About
+          </Link>
+          <Link
+            href="/creators"
+            className="text-sm text-stone-600 transition hover:text-stone-900"
+          >
+            Creators
+          </Link>
         </div>
       </div>
     </footer>
