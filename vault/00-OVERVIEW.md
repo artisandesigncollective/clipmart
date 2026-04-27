@@ -13,3 +13,6 @@
 - `frontend/Marketplace.tsx` — B2B dashboard for claim buyers
 - `api/escrow_split.ts` — 10% fee split logic for claim sales
 - `.sovereign_memory.md` — Architectural log
+
+---
+?? **Sovereign Empire Hub:** [Master Index](file:///e:/hermes/github_fleet/EMPIRE_VAULT_INDEX.md) | [Command Center](file:///e:/hermes/github_fleet/paperclip-website/frontend/SovereignDashboard.tsx)
